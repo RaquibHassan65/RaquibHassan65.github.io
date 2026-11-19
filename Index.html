@@ -8,33 +8,291 @@
   <meta name="CocoaVersion" content="2775.2">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
     span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">gridsmartot/</span></p>
-<p class="p1"><span class="s1">│</span></p>
-<p class="p1"><span class="s1">├── index.html</span></p>
-<p class="p1"><span class="s1">├── css/</span></p>
-<p class="p1"><span class="s1">│   └── styles.css</span></p>
-<p class="p1"><span class="s1">│</span></p>
-<p class="p1"><span class="s1">├── images/</span></p>
-<p class="p1"><span class="s1">│   ├── hero-grid-network.jpg</span></p>
-<p class="p1"><span class="s1">│   ├── ot-reference-architecture.svg</span></p>
-<p class="p1"><span class="s1">│   ├── bess-platform.svg</span></p>
-<p class="p1"><span class="s1">│   └── cybersecurity-zones.svg</span></p>
-<p class="p1"><span class="s1">│</span></p>
-<p class="p1"><span class="s1">├── publications/</span></p>
-<p class="p1"><span class="s1">│   ├── ot-standardization-whitepaper.pdf</span></p>
-<p class="p1"><span class="s1">│   └── research-gap-analysis.pdf</span></p>
-<p class="p1"><span class="s1">│</span></p>
-<p class="p1"><span class="s1">├── architectures/</span></p>
-<p class="p1"><span class="s1">│   ├── bess-reference-architecture.pdf</span></p>
-<p class="p1"><span class="s1">│   ├── ot-rack-standard.pdf</span></p>
-<p class="p1"><span class="s1">│   └── iec62443-zones-conduits.pdf</span></p>
-<p class="p1"><span class="s1">│</span></p>
-<p class="p1"><span class="s1">└── assets/</span></p>
-<p class="p1"><span class="s1">    ├── logo.svg</span></p>
-<p class="p1"><span class="s1">    └── favicon.ico</span></p>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;GridSmart OT | Smart OT Infrastructure for Modern Energy Systems&lt;/title&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1">:root{</span></p>
+<p class="p1"><span class="s1">    --navy:#0A2342;</span></p>
+<p class="p1"><span class="s1">    --blue:#0076CE;</span></p>
+<p class="p1"><span class="s1">    --green:#00A878;</span></p>
+<p class="p1"><span class="s1">    --light:#F5F8FC;</span></p>
+<p class="p1"><span class="s1">    --dark:#1F2937;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">*{</span></p>
+<p class="p1"><span class="s1">    margin:0;</span></p>
+<p class="p1"><span class="s1">    padding:0;</span></p>
+<p class="p1"><span class="s1">    box-sizing:border-box;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">body{</span></p>
+<p class="p1"><span class="s1">    font-family: "Segoe UI", Arial, sans-serif;</span></p>
+<p class="p1"><span class="s1">    color:var(--dark);</span></p>
+<p class="p1"><span class="s1">    line-height:1.6;</span></p>
+<p class="p1"><span class="s1">    background:#fff;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.container{</span></p>
+<p class="p1"><span class="s1">    width:90%;</span></p>
+<p class="p1"><span class="s1">    max-width:1200px;</span></p>
+<p class="p1"><span class="s1">    margin:auto;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.hero{</span></p>
+<p class="p1"><span class="s1">    background:linear-gradient(135deg,var(--navy),var(--blue));</span></p>
+<p class="p1"><span class="s1">    color:white;</span></p>
+<p class="p1"><span class="s1">    padding:100px 0;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.hero h1{</span></p>
+<p class="p1"><span class="s1">    font-size:3rem;</span></p>
+<p class="p1"><span class="s1">    margin-bottom:20px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.hero p{</span></p>
+<p class="p1"><span class="s1">    font-size:1.3rem;</span></p>
+<p class="p1"><span class="s1">    max-width:700px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.tagline{</span></p>
+<p class="p1"><span class="s1">    color:#7fffd4;</span></p>
+<p class="p1"><span class="s1">    font-weight:600;</span></p>
+<p class="p1"><span class="s1">    margin:20px 0;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.btn{</span></p>
+<p class="p1"><span class="s1">    display:inline-block;</span></p>
+<p class="p1"><span class="s1">    margin-top:30px;</span></p>
+<p class="p1"><span class="s1">    padding:14px 28px;</span></p>
+<p class="p1"><span class="s1">    background:var(--green);</span></p>
+<p class="p1"><span class="s1">    color:white;</span></p>
+<p class="p1"><span class="s1">    text-decoration:none;</span></p>
+<p class="p1"><span class="s1">    border-radius:6px;</span></p>
+<p class="p1"><span class="s1">    font-weight:600;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">section{</span></p>
+<p class="p1"><span class="s1">    padding:70px 0;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.section-title{</span></p>
+<p class="p1"><span class="s1">    text-align:center;</span></p>
+<p class="p1"><span class="s1">    margin-bottom:40px;</span></p>
+<p class="p1"><span class="s1">    color:var(--navy);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.grid{</span></p>
+<p class="p1"><span class="s1">    display:grid;</span></p>
+<p class="p1"><span class="s1">    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));</span></p>
+<p class="p1"><span class="s1">    gap:25px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.card{</span></p>
+<p class="p1"><span class="s1">    background:white;</span></p>
+<p class="p1"><span class="s1">    border-radius:10px;</span></p>
+<p class="p1"><span class="s1">    padding:25px;</span></p>
+<p class="p1"><span class="s1">    box-shadow:0 4px 15px rgba(0,0,0,0.08);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.card h3{</span></p>
+<p class="p1"><span class="s1">    color:var(--blue);</span></p>
+<p class="p1"><span class="s1">    margin-bottom:15px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.research{</span></p>
+<p class="p1"><span class="s1">    background:var(--light);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.research ul{</span></p>
+<p class="p1"><span class="s1">    list-style:none;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.research li{</span></p>
+<p class="p1"><span class="s1">    margin-bottom:12px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.future{</span></p>
+<p class="p1"><span class="s1">    background:var(--navy);</span></p>
+<p class="p1"><span class="s1">    color:white;</span></p>
+<p class="p1"><span class="s1">    text-align:center;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.future h2{</span></p>
+<p class="p1"><span class="s1">    margin-bottom:20px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">footer{</span></p>
+<p class="p1"><span class="s1">    background:#111827;</span></p>
+<p class="p1"><span class="s1">    color:white;</span></p>
+<p class="p1"><span class="s1">    padding:40px 0;</span></p>
+<p class="p1"><span class="s1">    text-align:center;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">footer p{</span></p>
+<p class="p1"><span class="s1">    margin:8px 0;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.highlight{</span></p>
+<p class="p1"><span class="s1">    color:var(--green);</span></p>
+<p class="p1"><span class="s1">    font-weight:600;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;header class="hero"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h1&gt;GridSmart OT&lt;/h1&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;div class="tagline"&gt;</span></p>
+<p class="p1"><span class="s1">            Smart OT Infrastructure for Modern Energy Systems</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">            Advancing standardized Operational Technology (OT)</span></p>
+<p class="p1"><span class="s1">            architectures for utility-scale Battery Energy Storage Systems,</span></p>
+<p class="p1"><span class="s1">            renewable energy facilities, digital substations,</span></p>
+<p class="p1"><span class="s1">            and critical utility infrastructure.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;a href="#about" class="btn"&gt;Explore Our Vision&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section id="about"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2 class="section-title"&gt;Build Once. Deploy Everywhere.&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p style="max-width:900px;margin:auto;text-align:center;"&gt;</span></p>
+<p class="p1"><span class="s1">            GridSmart OT is focused on developing secure, scalable,</span></p>
+<p class="p1"><span class="s1">            and repeatable OT infrastructure platforms that improve</span></p>
+<p class="p1"><span class="s1">            reliability, cybersecurity, deployment efficiency,</span></p>
+<p class="p1"><span class="s1">            and lifecycle management across utility and energy storage projects.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2 class="section-title"&gt;Core Focus Areas&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;div class="grid"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h3&gt;OT Architecture &amp; Engineering&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">                    Standardized OT architectures for BESS,</span></p>
+<p class="p1"><span class="s1">                    digital substations, SCADA systems,</span></p>
+<p class="p1"><span class="s1">                    utility communications, and edge computing.</span></p>
+<p class="p1"><span class="s1">                &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h3&gt;OT Infrastructure Standardization&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">                    Reference architectures, OT rack standards,</span></p>
+<p class="p1"><span class="s1">                    cybersecurity zoning, virtualization platforms,</span></p>
+<p class="p1"><span class="s1">                    and fleet-scale deployment models.</span></p>
+<p class="p1"><span class="s1">                &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h3&gt;Cybersecurity by Design&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">                    IEC 62443 aligned architectures supporting</span></p>
+<p class="p1"><span class="s1">                    OT DMZs, remote access, defense-in-depth strategies,</span></p>
+<p class="p1"><span class="s1">                    and secure utility communications.</span></p>
+<p class="p1"><span class="s1">                &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h3&gt;Digital Commissioning&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">                    Virtual FAT, OT digital twins,</span></p>
+<p class="p1"><span class="s1">                    configuration validation,</span></p>
+<p class="p1"><span class="s1">                    and automated commissioning methodologies.</span></p>
+<p class="p1"><span class="s1">                &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section class="research"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="container"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;h2 class="section-title"&gt;Current Research Initiatives&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ OT Infrastructure Standardization Frameworks&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ Utility-Scale BESS OT Reference Architectures&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ IEC 62443 Integrated Infrastructure Models&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ Fleet-Wide OT Lifecycle Management&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ Standardized OT Rack and Cabinet Architectures&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ Digital Commissioning and Virtual FAT Methodologies&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;✅ Utility OT Platform Governance Models&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/ul&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="container"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;h2 class="section-title"&gt;Industry Engagement&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p style="text-align:center;max-width:900px;margin:auto;"&gt;</span></p>
+<p class="p1"><span class="s1">            GridSmart OT actively contributes to industry collaboration,</span></p>
+<p class="p1"><span class="s1">            research, and standards development through participation in</span></p>
+<p class="p1"><span class="s1">            utility modernization initiatives, energy storage communities,</span></p>
+<p class="p1"><span class="s1">            cybersecurity forums, and professional organizations including IEEE PES.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;section class="future"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="container"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;The Future of Utility OT&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p style="max-width:900px;margin:auto;"&gt;</span></p>
+<p class="p1"><span class="s1">            The utility industry has standardized protection systems,</span></p>
+<p class="p1"><span class="s1">            communications protocols, and cybersecurity frameworks.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;br&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p class="highlight"&gt;</span></p>
+<p class="p1"><span class="s1">            The next frontier may be the standardization of the</span></p>
+<p class="p1"><span class="s1">            infrastructure layer that connects them all.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;footer&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;h3&gt;GridSmart OT&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;p&gt;Smart OT Infrastructure for Modern Energy Systems&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;p&gt;&lt;strong&gt;Build Once. Deploy Everywhere.&lt;/strong&gt;&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/footer&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
 </body>
 </html>
