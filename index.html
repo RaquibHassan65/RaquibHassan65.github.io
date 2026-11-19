@@ -17,7 +17,6 @@ content="Advancing OT Infrastructure Standardization for utilities, energy stora
     --green:#00A878;
     --light:#F5F8FC;
     --dark:#1F2937;
-    --gray:#6B7280;
 }
 
 *{
@@ -26,15 +25,11 @@ content="Advancing OT Infrastructure Standardization for utilities, energy stora
     box-sizing:border-box;
 }
 
-html{
-    scroll-behavior:smooth;
-}
-
 body{
-    font-family:Segoe UI, Arial, sans-serif;
-    line-height:1.7;
+    font-family: "Segoe UI", Arial, sans-serif;
     color:var(--dark);
-    background:#ffffff;
+    line-height:1.6;
+    background:#fff;
 }
 
 .container{
@@ -55,14 +50,14 @@ body{
 }
 
 .hero p{
-    font-size:1.2rem;
-    max-width:800px;
+    font-size:1.3rem;
+    max-width:700px;
 }
 
 .tagline{
     color:#7fffd4;
     font-weight:600;
-    margin-bottom:20px;
+    margin:20px 0;
 }
 
 .btn{
@@ -77,20 +72,13 @@ body{
 }
 
 section{
-    padding:80px 0;
+    padding:70px 0;
 }
 
 .section-title{
     text-align:center;
+    margin-bottom:40px;
     color:var(--navy);
-    margin-bottom:20px;
-}
-
-.section-subtitle{
-    text-align:center;
-    max-width:900px;
-    margin:0 auto 50px auto;
-    color:var(--gray);
 }
 
 .grid{
@@ -101,10 +89,9 @@ section{
 
 .card{
     background:white;
-    padding:25px;
     border-radius:10px;
-    border-top:4px solid var(--blue);
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
 }
 
 .card h3{
@@ -112,44 +99,16 @@ section{
     margin-bottom:15px;
 }
 
-.alt-section{
+.research{
     background:var(--light);
 }
 
-.research-list{
+.research ul{
     list-style:none;
-    max-width:900px;
-    margin:auto;
 }
 
-.research-list li{
-    margin-bottom:14px;
-}
-
-.framework-table{
-    width:100%;
-    border-collapse:collapse;
-    background:white;
-}
-
-.framework-table th{
-    background:var(--navy);
-    color:white;
-    padding:15px;
-    text-align:left;
-}
-
-.framework-table td{
-    padding:15px;
-    border-bottom:1px solid #dddddd;
-}
-
-.publication{
-    background:white;
-    border-left:4px solid var(--green);
-    padding:25px;
-    margin-bottom:20px;
-    box-shadow:0 3px 10px rgba(0,0,0,.05);
+.research li{
+    margin-bottom:12px;
 }
 
 .future{
@@ -162,20 +121,20 @@ section{
     margin-bottom:20px;
 }
 
-.highlight{
-    color:#59f1c2;
-    font-weight:600;
-}
-
 footer{
     background:#111827;
     color:white;
+    padding:40px 0;
     text-align:center;
-    padding:40px 20px;
 }
 
 footer p{
     margin:8px 0;
+}
+
+.highlight{
+    color:var(--green);
+    font-weight:600;
 }
 
 @media(max-width:768px){
@@ -199,33 +158,28 @@ footer p{
 
 <div class="container">
 
+<h1>GridSmart OT</h1>
+
 <div class="tagline">
 Smart OT Infrastructure for Modern Energy Systems
 </div>
 
-<h1>
-Standardizing Operational Technology
-for Utilities, Energy Storage,
-and Grid Modernization
-</h1>
-
 <p>
-GridSmart OT is advancing secure, scalable,
-and repeatable Operational Technology infrastructure
-for utility-scale Battery Energy Storage Systems (BESS),
+Advancing standardized Operational Technology (OT)
+architectures for utility-scale Battery Energy Storage Systems,
 renewable energy facilities, digital substations,
-and critical infrastructure.
+and critical utility infrastructure.
 </p>
 
-<a href="#research" class="btn">
-Explore Research
+<a href="#about" class="btn">
+Explore Our Vision
 </a>
 
 </div>
 
 </header>
 
-<section>
+<section id="about">
 
 <div class="container">
 
@@ -233,11 +187,11 @@ Explore Research
 Build Once. Deploy Everywhere.
 </h2>
 
-<p class="section-subtitle">
-The utility industry has standardized protection systems,
-communications protocols, and cybersecurity frameworks.
-The next frontier may be the standardization of the
-infrastructure layer that connects them all.
+<p style="max-width:900px;margin:auto;text-align:center;">
+GridSmart OT is focused on developing secure, scalable,
+and repeatable OT infrastructure platforms that improve
+reliability, cybersecurity, deployment efficiency,
+and lifecycle management across utility and energy storage projects.
 </p>
 
 </div>
@@ -266,31 +220,27 @@ utility communications, and edge computing.
 <div class="card">
 <h3>OT Infrastructure Standardization</h3>
 <p>
-Reference architectures,
-OT rack standards,
-cybersecurity zoning,
-virtualization platforms,
-and deployment frameworks.
+Reference architectures, OT rack standards,
+cybersecurity zoning, virtualization platforms,
+and fleet-scale deployment models.
 </p>
 </div>
 
 <div class="card">
 <h3>Cybersecurity by Design</h3>
 <p>
-IEC 62443 aligned architectures,
-OT DMZ strategies,
-defense-in-depth design,
-and secure communications.
+IEC 62443 aligned architectures supporting
+OT DMZs, remote access, defense-in-depth strategies,
+and secure utility communications.
 </p>
 </div>
 
 <div class="card">
 <h3>Digital Commissioning</h3>
 <p>
-Virtual FAT,
-OT digital twins,
+Virtual FAT, OT digital twins,
 configuration validation,
-and commissioning automation.
+and automated commissioning methodologies.
 </p>
 </div>
 
@@ -300,7 +250,7 @@ and commissioning automation.
 
 </section>
 
-<section id="research" class="alt-section">
+<section class="research">
 
 <div class="container">
 
@@ -308,7 +258,7 @@ and commissioning automation.
 Current Research Initiatives
 </h2>
 
-<ul class="research-list">
+<ul>
 
 <li>✅ OT Infrastructure Standardization Frameworks</li>
 
@@ -335,100 +285,14 @@ Current Research Initiatives
 <div class="container">
 
 <h2 class="section-title">
-OT Infrastructure Standardization Framework
-</h2>
-
-<table class="framework-table">
-
-<tr>
-<th>Domain</th>
-<th>Focus Area</th>
-</tr>
-
-<tr>
-<td>Physical Infrastructure</td>
-<td>OT Racks and Cabinets</td>
-</tr>
-
-<tr>
-<td>Communications</td>
-<td>Reference Network Architectures</td>
-</tr>
-
-<tr>
-<td>Security</td>
-<td>Zones and Conduits</td>
-</tr>
-
-<tr>
-<td>Compute</td>
-<td>Virtualized OT Platforms</td>
-</tr>
-
-<tr>
-<td>Operations</td>
-<td>Monitoring and Lifecycle Management</td>
-</tr>
-
-<tr>
-<td>Deployment</td>
-<td>Commissioning Standards</td>
-</tr>
-
-</table>
-
-</div>
-
-</section>
-
-<section class="alt-section">
-
-<div class="container">
-
-<h2 class="section-title">
-Publications & Thought Leadership
-</h2>
-
-<div class="publication">
-<h3>Research Gap Analysis: OT Infrastructure Standardization</h3>
-<p>
-Exploring opportunities for standardization across utility and energy storage OT environments.
-</p>
-</div>
-
-<div class="publication">
-<h3>Utility-Scale BESS OT Architectures</h3>
-<p>
-Developing reference OT architectures focused on scalability, cybersecurity, and lifecycle management.
-</p>
-</div>
-
-<div class="publication">
-<h3>Digital Commissioning Frameworks</h3>
-<p>
-Researching virtual FAT, automated validation, and OT deployment readiness.
-</p>
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="container">
-
-<h2 class="section-title">
 Industry Engagement
 </h2>
 
-<p class="section-subtitle">
-GridSmart OT supports industry collaboration,
-research, standards development,
-utility modernization initiatives,
-energy storage communities,
-cybersecurity forums,
-and professional organizations including IEEE PES.
+<p style="text-align:center;max-width:900px;margin:auto;">
+GridSmart OT actively contributes to industry collaboration,
+research, and standards development through participation in
+utility modernization initiatives, energy storage communities,
+cybersecurity forums, and professional organizations including IEEE PES.
 </p>
 
 </div>
@@ -443,16 +307,16 @@ and professional organizations including IEEE PES.
 The Future of Utility OT
 </h2>
 
-<p>
-The industry has standardized protection systems,
-communications protocols,
-and cybersecurity frameworks.
+<p style="max-width:900px;margin:auto;">
+The utility industry has standardized protection systems,
+communications protocols, and cybersecurity frameworks.
 </p>
 
 <br>
 
 <p class="highlight">
-The next frontier may be OT Infrastructure Standardization.
+The next frontier may be the standardization of the
+infrastructure layer that connects them all.
 </p>
 
 </div>
@@ -468,6 +332,17 @@ The next frontier may be OT Infrastructure Standardization.
 <p><strong>Build Once. Deploy Everywhere.</strong></p>
 
 <p>Research • Architecture • Standardization • Innovation</p>
+
+<p style="margin-top:15px;">
+Contact: Raquib Hassan
+</p>
+
+<p>
+<a href="mailto:raquib.hassan@gridsmartot.com"
+style="color:#7fffd4;text-decoration:none;">
+raquib.hassan@gridsmartot.com
+</a>
+</p>
 
 </footer>
 
